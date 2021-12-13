@@ -34,7 +34,7 @@ struct CircleButtonView_Previews: PreviewProvider {
         Group {
             CircleButtonView(iconName: "info")
                 .previewLayout(.sizeThatFits)
-                .colorScheme(.dark)
+                .preferredColorScheme(.dark)
             
             CircleButtonView(iconName: "plus")
                 .previewLayout(.sizeThatFits)
